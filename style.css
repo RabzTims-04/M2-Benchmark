@@ -95,3 +95,12 @@ body{
     background-color: #cbcbcb;
 }
 
+footer *{
+  
+    background-color: #262626;
+}
+
+footer svg{
+    color: #cbcbcb;
+}
+
