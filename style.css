@@ -98,9 +98,28 @@ body{
 footer *{
   
     background-color: #262626;
+    color: #cbcbcb;
+}
+
+footer a{
+    color: #cbcbcb!important;
+    font-style: none;
 }
 
 footer svg{
     color: #cbcbcb;
 }
 
+#diffcolor{
+    background-color: #2F2F2F;
+    color: #cbcbcb;
+}
+
+#diffcolor span{
+    color: #86328a;
+}
+
+#lastfooter{
+    background-color: #262626;
+    color: #cbcbcb;
+}
