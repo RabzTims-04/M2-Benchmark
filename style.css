@@ -123,3 +123,11 @@ footer svg{
     background-color: #262626;
     color: #cbcbcb;
 }
+
+.downloadbutton{
+    background-color: #d4b4d6;
+}
+
+.downloadbutton:hover{
+background: linear-gradient(97deg, rgba(101,35,122,1) 5%, rgba(75,38,118,1) 8%, rgba(106,54,139,1) 35%, rgba(59,31,92,1) 73%, rgba(135,71,157,1) 85%);
+}
