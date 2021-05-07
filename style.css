@@ -86,3 +86,12 @@ body{
     width: 25%;
 }
 
+.showbutton{
+    border-radius: 0%;
+    padding: 10px 50px;
+}
+
+.showbutton:hover{
+    background-color: #cbcbcb;
+}
+
