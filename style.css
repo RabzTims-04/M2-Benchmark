@@ -41,10 +41,19 @@ body{
     color: #cbcbcb;
 }
 
+.navbar-toggler{
+    color: #cbcbcb;
+}
+
 .carouselclass img{
-  max-height: 450px;
+  max-height: 550px;
   object-fit: cover;
 }
+
+/* .img4{
+    max-height: 300px;
+    object-fit: cover; 
+} */
 
 .carouselclass{
     max-width: 90%;
@@ -54,10 +63,73 @@ body{
     height: 100px;
 }
 
+.carousel-indicators li{
+    width: 70px;
+    height: 1px;
+}
+
+.carousel-indicators li:hover{
+    background-color: #55125a;
+}
+
+.carousel-indicators li.active{
+    background-color: #55125a;
+    border-radius: 45%;
+    height: 3px;
+}
+
+.carousel-control-next{
+    right: -100px;
+}
+
+.carousel-control-prev{
+    left: -100px;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}
 
 .card-deck{
     margin-right: -80px;
     margin-left: -80px;
+}
+
+#car2 figure img{
+    width: 250px;
+    height: 400px;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #cbcbcb;
+}
+
+a.nav-link{
+    color: #948989;
+}
+
+a.nav-link:hover{
+    color: #55125a;
+    border-color: transparent!important;
+}
+
+.nav-indicator{
+    position: absolute;
+    top: 30px;
+}
+
+.nav-link.active{
+    color:#55125a!important ;
+    background-color: transparent!important;
+    border-color: transparent!important;
+    border-bottom: 2px solid #55125a!important;
+}
+
+.nav-link.active:hover{
+    color:#55125a!important ;
+    background-color: transparent!important;
+    border-color: transparent!important;
+    border-bottom: 2px solid #55125a!important;
 }
 
 .title2 img{
